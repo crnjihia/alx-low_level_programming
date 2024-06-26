@@ -1,8 +1,2 @@
 #!/bin/bash
-
-# Set your C file name (replace with actual filename if not provided elsewhere)
-CFILE="2-main.c"
-
-# Compile C file to assembly code
-gcc -S $CFILE -o output.s
-
+gcc -S 2-main.c -o output.s
