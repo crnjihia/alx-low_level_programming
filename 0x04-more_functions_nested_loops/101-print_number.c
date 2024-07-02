@@ -1,31 +1,27 @@
 #include "main.h"
 
 /**
- * print_number - prints an integer using _putchar
- * @n: the integer to print
+ * print_number - prints an integer
+ * @n: integer to be printed
  */
+
 void print_number(int n)
 {
-    unsigned int num = n;  // Use unsigned int to handle the absolute value
+	unsigned int n1;
 
-    // Handle negative numbers
-    if (n < 0)
-    {
-        _putchar('-');
-        num = -n;  // Convert n to positive
-    }
+	if (n < 0)
+	{
+		n1 = -n;
+		_putchar('-');
+	} else
+	{
+		n1 = n;
+	}
 
-    // Find the highest power of 10 less than or equal to num
-    unsigned int divisor = 1;
-    while (num / divisor >= 10)
-    {
-        divisor *= 10;
-    }
+	if (n1 / 10)
+	{
+		print_number(n1 / 10);
+	}
 
-    // Print each digit
-    while (divisor != 0)
-    {
-        _putchar((num / divisor) % 10 + '0');
-        divisor /= 10;
-    }
+	_putchar((n1 % 10) + '0');
 }
