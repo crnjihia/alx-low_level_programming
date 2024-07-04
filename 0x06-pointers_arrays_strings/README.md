@@ -1,0 +1,2 @@
+
+interiPointer, Arrays and Strings.
