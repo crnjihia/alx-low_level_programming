@@ -1,2 +1,1 @@
-
-interiPointer, Arrays and Strings.
+More Pointers, Arrays and Strings
