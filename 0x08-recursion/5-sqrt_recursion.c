@@ -6,7 +6,7 @@ int _sqrt_helper(int n, int start);
  * _sqrt_recursion - Returns the natural square root of a number.
  * @n: The number to find the square root of.
  *
- * Return: The square root, or -1 if n does not have a natural square root.
+ * Return: The natural square root, or -1 if n does not have a natural square root.
  */
 int _sqrt_recursion(int n)
 {
