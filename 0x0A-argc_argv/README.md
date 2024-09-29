@@ -1,3 +1,2 @@
-# 0x0A-argc_argv
-
-This project is about understanding the usage of command line arguments in C.
+0x0A-argc_argv
+Focuses on handling command-line arguments (argc, argv) and writing programs that can process input from the command line.
