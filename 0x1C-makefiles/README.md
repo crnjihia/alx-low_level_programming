@@ -1,3 +1,2 @@
 0x1C-makefiles
-Github Repo - Alx low level
-Author - Bright Daniel
+Introduction to Makefiles, covering how to automate compilation processes in C projects using make, dependencies, and rules.
